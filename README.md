@@ -4,6 +4,11 @@
 <p align="center"> <b> A macOS Tahoe like theme for GNOME Desktops </b> </p>
 <br>
 
+<p align="center">
+  <b>✨ Compatible with GNOME 43+ including GNOME 49 ✨</b><br>
+  <a href="GETTING_STARTED.md">📖 Complete Getting Started Guide</a>
+</p>
+
 ## Donate
 
 If you like my project, you can buy me a coffee, many thanks ❤️ !
@@ -11,6 +16,10 @@ If you like my project, you can buy me a coffee, many thanks ❤️ !
 <a href="https://www.buymeacoffee.com/kayozxo"><img src="screenshots/bmc-button.png" width="120" height="40"/></a>
 
 # Installation is easy!
+
+**New here?** Check out the [📖 Complete Getting Started Guide](GETTING_STARTED.md) for detailed instructions on transforming your GNOME 49 desktop to look like macOS Tahoe 2026!
+
+**Quick Links**: [Getting Started](GETTING_STARTED.md) | [Quick Reference](QUICK_REFERENCE.md) | [FAQ](FAQ.md) | [Extension Setup](.config/EXTENSIONS.md)
 
 <details> <summary> Recommended applications </summary>
 
@@ -165,6 +174,27 @@ If you use flatpak apps, you can run this to fix theme issue
 Parameter: `--flatpak`
 
 Example: `./install.sh --flatpak`
+
+## Version Compatibility
+
+**Supported GNOME Versions**: 43, 44, 45, 46, 47, 48, 49+
+
+The Tahoe theme is designed to work with GNOME 43 and later, including the latest GNOME 49. The theme automatically adapts to new GNOME features through CSS inheritance.
+
+- ✅ **GTK 3.0**: Full support
+- ✅ **GTK 4.0**: Full support with libadwaita override
+- ✅ **GNOME Shell**: Full support via User Themes extension
+- ✅ **GNOME 49**: Tested and compatible
+
+If you encounter any version-specific issues with GNOME 49, please [open an issue](https://github.com/kayozxo/GNOME-macOS-Tahoe/issues).
+
+## Documentation
+
+- 📖 [**Getting Started Guide**](GETTING_STARTED.md) - Complete setup instructions for GNOME 49
+- ❓ [**FAQ**](FAQ.md) - Frequently asked questions and troubleshooting
+- 🚀 [**Quick Reference**](QUICK_REFERENCE.md) - Common commands and configurations
+- 🔧 [**Extension Configuration**](.config/EXTENSIONS.md) - Detailed extension setup
+- 🖼️ [**Wallpapers**](.config/walls/) - macOS Tahoe wallpaper collection
 
 ## ✅ Done!
 
